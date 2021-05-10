@@ -66,6 +66,8 @@ function digLawn ()
 
         if($("#status").val() >= 100)
         {
+            clickedSpan.replaceWith("<div class='noMore19DollarFortniteCard'>")
+
             addToMeter = 100
 
             if(addToMeter === 100 && boneCounter === 0){
