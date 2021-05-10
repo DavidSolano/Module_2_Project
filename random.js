@@ -70,11 +70,13 @@ function digLawn ()
 
             if(addToMeter === 100 && boneCounter === 0){
                 $("p#output").text(`good job you did it, you found all the bones`).show()
-
+                clickedSpan.off(digLawn())
+                boneCounter.off()
             }
             else if (addToMeter === 100 && boneCounter > 0){
                 $("p#output").text(`shoo, you- you get outta me lawn`).show()
-
+                clickedSpan.off(digLawn())
+                boneCounter.off()
             }
 
         }
