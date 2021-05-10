@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    background-color: black;
+
+}
+h1{
+    color: lightgray;
+}
+
+h3{
+    color: lightgray;
+}
+
+p{
+    color: lightgray;
+}
+
+#status{
+    position: relative;
+    width: 475px;
+    height: 40px;
+    border: 1px solid #000000;
+}
+
+.grass {
+    height: 90px;
+    width: 90px;
+    border: 2px solid;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dug{
+    height: 90px;
+    width: 90px;
+    border: 2px solid;
+    display: inline-block;
+    cursor: pointer;
+    background-color: saddlebrown;
+}
+
+.bone{
+
+}
+
+.noBone{
+
+}
+
+.content{
+    background: url("100px-Bone.png");
+    background-color: saddlebrown;
+}
+
+.noMore19DollarFortniteCard{
+    height: 90px;
+    width: 90px;
+    border: 2px solid;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #008000;
+}
